@@ -19,20 +19,19 @@ The overall design mirrors a **real-world UAV / robotics firmware architecture**
 
 ---
 
-## 🧭 Project Structure
+## 📁 File Structure
 
-AIRMAN/
+```
+level1/
 │
 ├── level1/ # Core telemetry pipeline (sensor simulation + UART framing)
 ├── level2/ # AHRS computation + enhanced telemetry + visualization
 └── README.md # This document
-
-yaml
-Copy code
-
-Each level is **self-contained**, with its own source code, receiver scripts, and documentation.
+```
 
 ---
+
+
 
 ## 🔹 Level 1 — Telemetry Pipeline (Core Firmware)
 
